@@ -36,6 +36,9 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- ======= FONTAWESOME ======== -->
+    <script src="https://kit.fontawesome.com/55a073ab09.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -106,7 +109,8 @@
                             </div>
 
                             <div class="navbar-btn d-none mt-15 d-lg-inline-block">
-                                <a class="menu-bar" href="#side-menu-right"><i class="lni-menu"></i></a>
+                                <a id="nav-toggler-web" class="menu-bar" href="#side-menu-right"><i
+                                        class="lni-menu"></i></a>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
@@ -220,7 +224,8 @@
                     </div>
                     <div class="section-title text-center mt-30 pb-40">
                         <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">About IEEE IEM
-                            <br> Student Branch</h4>
+                            <br> Student Branch
+                        </h4>
                         <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">Lorem, ipsum dolor sit
                             amet consectetur adipisicing elit. Provident at qui a ratione.</p>
                     </div> <!-- section title -->
@@ -284,7 +289,43 @@
         </div> <!-- container -->
     </section>
 
+
     <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== Counter PART STARTS ======-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-money-protection display-4 text-primary"></i>
+                        <span class="count display-4 text-primary" data-target='7000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-heart display-4 text-danger"></i>
+                        <span class="count display-4 text-danger" data-target='6000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-users display-4 text-primary"></i>
+                        <span class="count display-4 text-primary" data-target='9000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== Counter PART ENDS ======-->
+
 
     <!--====== portfolio PART START ======-->
 
@@ -309,6 +350,7 @@
                             <li data-filter=".marketing-3">EVENT 3</li>
                             <li data-filter=".planning-3">EVENT 4</li>
                             <li data-filter=".research-3">EVENT 5</li>
+                            <li class="btn"> SEE MORE &gt;&gt; </li>
                         </ul>
                     </div> <!-- portfolio menu -->
                 </div>
@@ -538,13 +580,14 @@
                         </div>
                     </div> <!-- pricing style one -->
                 </div>
-            </div><!--row-->
+            </div>
+            <!--row-->
         </div> <!-- container -->
     </section>
 
     <!--====== PRINICNG STYLE EIGHT ENDS ======-->
 
-    
+
 
     <!--====== CLIENT LOGO PART START ======-->
 
@@ -613,43 +656,18 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-link">
-                            <h6 class="footer-title">IEEE IEM SB</h6>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Link</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Title 2</h6>
-                            <ul>
-                                <li><a href="#">Speciality link 1</a></li>
-                                <li><a href="#">Speciality link 2</a></li>
-                                <li><a href="#">Speciality link 3</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
-                            <h6 class="footer-title">Title 3</h6>
-                            <ul>
-                                <li><a href="#">Awesome Link 2</a></li>
-                                <li><a href="#">Awesome Link 3</a></li>
-                                <li><a href="#">Awesome Link 4</a></li>
-                            </ul>
-                        </div> <!-- footer link -->
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-link">
                             <h6 class="footer-title">Contact Us</h6>
                             <ul>
-                                <li><a href="#">Contact Number</a></li>
-                                <li><a href="#">Join Us</a></li>
-                                <li><a href="#">Email to Contact</a></li>
+                                <li><a href="#">Email</a></li>
+                                <li><a href="#">Whatsapp</a></li>
+                                <li><a href="#">Social Media</a></li>
                             </ul>
                         </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13129.138825675716!2d88.42915905440138!3d22.57012860047784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a90e2f3b89%3A0xd13b26d16803ab9b!2sIEM%2C%20Management%20House!5e0!3m2!1sen!2sin!4v1635278961661!5m2!1sen!2sin"
+                            width="800" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
@@ -660,9 +678,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="copyright text-center text-lg-left mt-10">
-                            <p class="text">Crafted by <a style="color: #38f9d7" rel="nofollow"
-                                    href="https://www.linkedin.com/in/anirban-bhattacharjee-9227591b6/">Anirban Bhattacharjee</a> from <a style="color: #38f9d7"
-                                    rel="nofollow" href="https://iem.edu.in/">IEM Kolkata</a></p>
+                            <p class="text">Designed and Developed by <a style="color: #5883e3 " rel="nofollow"
+                                    href="https://www.linkedin.com/in/anirban-bhattacharjee-9227591b6/">Anirban
+                                    Bhattacharjee</a></p>
                         </div> <!--  copyright -->
                     </div>
                     <div class="col-lg-2">
@@ -687,7 +705,7 @@
 
     <!--====== BACK TOP TOP PART START ======-->
 
-    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+    <a href="#" class="back-to-top"><i class="lni-chevron-up" id='up-icon'></i></a>
 
     <!--====== BACK TOP TOP PART ENDS ======-->
 
@@ -735,6 +753,7 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/counter.js"></script>
 
 </body>
 

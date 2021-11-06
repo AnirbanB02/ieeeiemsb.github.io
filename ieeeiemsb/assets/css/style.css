@@ -2295,3 +2295,20 @@ p {
 #nav-toggler-web{
   display: none;
 }
+.member-dp{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#gmap{
+  width: 60vw;
+  height: 22vw;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+ #gmap{
+   width:85vw;
+   height: 40vw;
+ }
+}

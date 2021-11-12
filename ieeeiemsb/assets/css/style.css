@@ -186,7 +186,7 @@ p {
       height: 100%;
       border-style: solid;
       /* Spinner Color */
-      border-color: #38f9d7 #38f9d7 #cbced1;
+      border-color: #041862 #041862 #cbced1;
       border-radius: 50%;
       border-width: 6px; }
     .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
@@ -1096,7 +1096,7 @@ p {
 .slider-area {
   padding-top: 94px; }
   .slider-area .bd-example .carousel .carousel-inner {
-    background-color: #38f9d7; }
+    background-color: #041862; }
     .slider-area .bd-example .carousel .carousel-inner .carousel-item {
       height: 700px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1288,7 +1288,7 @@ p {
             -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
-            color: #38f9d7; }
+            color: #041862; }
   .header-hero .header-shape {
     position: absolute;
     bottom: 0;
